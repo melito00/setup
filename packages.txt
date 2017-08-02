@@ -2,3 +2,4 @@ zsh
 git
 keychain
 unzip
+silversearcher-ag
