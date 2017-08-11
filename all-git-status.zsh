@@ -1,5 +1,6 @@
 #!/bin/zsh
 #
+
 cwd=`pwd`
 echo $cwd
 for dir in `find . -type d -name .git -print | sed 's/.git$//' | egrep -v '\/\.'`
