@@ -28,6 +28,7 @@ iptables -A INPUT -i lo -j ACCEPT
 # Define variables
 ## Addressses
 any=0/0
+hds=80.68.12.2/32
 
 ## Ports
 ssh=22
@@ -41,7 +42,9 @@ oint=ens3
 ## SSH
 ##   ACCEPT: 0.0.0.0/0:* -> 10.0.2.15/32:22  
 ##   DROP  : 0.0.0.0/0:* -> 
-iptables -A INPUT -p tcp -s $any --sport $anyport -d 10.0.2.15/32 --dport $ssh -m state --state NEW,ESTABLISHED -j NFLOG_ACCEPT
+iptables -A INPUT -p tcp -s $any --sport $anyport -d 10.0.2.15/32 --dport $ssh -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A INPUT -p tcp -s $hds --dport $ssh -m state --state NEW,ESTABLISHED -j ACCEPT
+iptables -A INPUT -p tcp -s $any --dport $ssh -j NFLOG_DROP
 #iptables -A OUTPUT -p tcp -s 10.0.2.15/32 --sport $ssh -d $any --dport $anyport -m state --state ESTABLISHED,RELATED
 
 ## IDENT
