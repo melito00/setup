@@ -33,6 +33,9 @@ any=0/0
 ssh=22
 anyport=1024:65535
 
+## Inteface
+oint=ens3
+
 # -A chain -p protocol -s source addr--sport source port -d destination addr --dport destination port -j target
 
 ## SSH
@@ -43,6 +46,9 @@ iptables -A INPUT -p tcp -s $any --sport $anyport -d 10.0.2.15/32 --dport $ssh -
 
 ## IDENT
 iptables -A INPUT -p tcp -s $any --dport 113 -j REJECT --reject-with icmp-port-unreachable
+
+## openvpn
+iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o $oint -j MASQUERADE
 
 # Accept All Return Packet
 iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
