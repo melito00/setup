@@ -19,7 +19,7 @@ iptables -A NFLOG_ACCEPT -j NFLOG --nflog-group 1 --nflog-prefix "nflog"
 iptables -A NFLOG_ACCEPT -j ACCEPT
 
 iptables -N NFLOG_DROP
-iptables -A NFLOG_DROP -j NFLOG
+iptables -A NFLOG_DROP -j NFLOG --nflog-group 1 --nflog-prefix "nflog"
 iptables -A NFLOG_DROP -j DROP
 
 # Accept all packet to loopback interface
