@@ -1,0 +1,5 @@
+googlechrome pin
+evernote pin
+1password pin
+jre8
+jdk8
