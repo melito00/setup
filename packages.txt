@@ -4,3 +4,5 @@ keychain
 unzip
 silversearcher-ag
 tree
+vim
+gawk
