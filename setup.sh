@@ -3,6 +3,7 @@
 
 echo "Starting initial setup..."
 
+DISTRIB=$(awk '/DISTRIB_ID=/' /etc/*-release | sed 's/DISTRIB_ID=//' | tr '[:upper:]' '[:lower:]')
 ##########################################################################
 case ${OSTYPE} in
   darwin*)
