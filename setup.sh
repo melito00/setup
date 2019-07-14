@@ -28,12 +28,12 @@ echo ""
 curl_installed=`dpkg-query -f'${Status}' --show curl | cut -d ' ' -f 3`
 echo $curl_installed
 if [ ! "x$curl_installed" = "xintalled" ]; then
-  sudo apt-get install --force-yes --yes --quiet=2 curl
+  sudo apt-get install --allow --yes --quiet=2 curl
 fi
 
 cd $HOME
 
-curl -sL --proto-redir -all,https https://raw.githubusercontent.com/melito00/setup/master/packages.txt | xargs sudo apt-get install --force-yes --yes --quiet=2
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/melito00/setup/master/packages.txt | xargs sudo apt-get install --allow --yes --quiet=2
 
 git config --global user.email "kenji.yamada@gmail.com"
 git config --global user.name "Kenji Yamada"
