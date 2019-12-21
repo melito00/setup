@@ -11,3 +11,7 @@ Invoke-WebRequest -Uri 'https://ja.osdn.net/frs/redir.php?m=acc&f=%2Fsevenzip%2F
 
 iwr -Uri http://repo.msys2.org/distrib/x86_64/msys2-base-x86_64-20161025.tar.xz -OutFile msys2-base-x64.tar.xz
 
+# Setup Void Linux
+
+curl -L http://tiny.cc/setup-void1 | sh
+
