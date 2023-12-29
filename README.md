@@ -10,6 +10,12 @@ some-of-templates :: git@github.com:melito00/some-of-templates.git
 setup :: git@github.com:melito00/setup.git
 memo-rep :: git clone git@bitbucket.org:melito/memo-rep.git
 
+# Tools
+
+## Windows
+
+- curl.exe --silent -LO https://raw.githubusercontent.com/melito00/setup/master/gh-latest-release.ps1
+
 # App Package List
 
 Windows :: curl.exe --silent -LO https://raw.githubusercontent.com/melito00/setup/master/packages-win.txt
