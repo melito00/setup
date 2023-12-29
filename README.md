@@ -10,6 +10,10 @@ some-of-templates :: git@github.com:melito00/some-of-templates.git
 setup :: git@github.com:melito00/setup.git
 memo-rep :: git clone git@bitbucket.org:melito/memo-rep.git
 
+# App Package List
+
+Windows :: curl.exe --silent -LO https://raw.githubusercontent.com/melito00/setup/master/packages-win.txt
+
 # chocolatey
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy AllSigned;  iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
