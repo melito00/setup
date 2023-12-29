@@ -10,6 +10,15 @@ some-of-templates :: git@github.com:melito00/some-of-templates.git
 setup :: git@github.com:melito00/setup.git
 memo-rep :: git clone git@bitbucket.org:melito/memo-rep.git
 
+# Scoop
+
+https://scoop.sh
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
 # Tools
 
 ## Windows
