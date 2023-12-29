@@ -1,5 +1,71 @@
-googlechrome pin
-evernote pin
-1password pin
-jre8
-jdk8
+PhraseExpress
+VLC
+
+curl.exe -LO https://download.sysinternals.com/files/Ctrl2Cap.zip
+
+* winget (ID)
+
+winget -e --silent --id
+
+7zip.7zip  # Scoop -> winget
+Brave.Brave
+Google.Chrome
+Microsoft.VisualStudioCode
+Mozilla.Firefox
+Notepad++.Notepad++ 
+Oracle.VirtualBox
+VivaldiTechnologies.Vivaldi
+
+Microsoft.PowerShell
+Microsoft.PowerToys
+Microsoft.WindowsTerminal
+
+* Scoop
+
+Name                              Version                  Source      Updated             Info        
+----                              -------                  ------      -------             ----        
+autohotkey                        1.1.33.10                extras      2023-03-18 07:00:56 Held package
+bat                               0.24.0                   main        2023-10-21 07:07:49             
+bitwarden                         2023.12.1                extras      2023-12-28 06:10:03             
+#curl                              8.5.0_3                  main        2023-12-19 09:59:34             
+dark                              3.11.2                   main        2021-11-05 06:14:33             
+discord                           1.0.9028-17              extras      2023-12-28 06:10:34             
+emacs                             29.1                     extras      2023-08-05 13:38:20             
+fd                                9.0.0                    main        2023-12-28 06:10:35             
+#figma                             116.15.4                 extras      2023-12-02 06:53:00             
+#fnm                               1.35.1                   main        2023-08-26 08:31:06             
+fzf                               0.44.1                   main        2023-11-22 08:36:56             
+#ghq                               1.4.2                    main        2023-04-22 05:22:14             
+git                               2.43.0                   main        2023-11-22 08:37:12             
+grep                              3.11                     main        2023-07-22 12:40:15             
+grepwin                           2.0.15                   extras      2023-11-22 10:03:14             
+gsudo                             2.4.2                    main        2023-12-19 09:59:36             
+innounp                           0.50                     main        2021-11-05 06:14:27             
+#jetbrains-toolbox                 2.1.3.18901              extras      2023-12-28 06:10:41             
+jq                                1.7.1                    main        2023-12-19 09:59:44             
+less                              643                      main        2023-08-26 08:31:23             
+oh-my-posh                        19.3.0                   main        2023-12-28 06:10:45             
+openjdk17                         17.0.2-8                 java        2022-10-15 10:48:43             
+powertoys                         0.76.2                   extras      2023-12-19 10:00:30             
+#python                            3.12.1                   main        2023-12-09 14:21:50             
+ripgrep                           14.0.3                   main        2023-12-02 06:53:17             
+#rufus                             4.3                      extras      2023-10-21 07:09:21             
+rustup-msvc                       1.26.0                   main        2023-04-29 07:04:32             
+#screentogif                       2.40.1                   extras      2023-12-19 10:00:40             
+#sharex                            15.0.0                   extras      2023-02-15 21:58:00             
+#sharpkeys                         3.9.4                    extras      2022-06-11 13:41:53             
+simplenote                        2.21.0                   extras      2022-07-23 08:13:45             
+slack                             4.36.134                 extras      2023-12-19 10:00:55             
+snipaste                          1.16.2                   extras      2021-11-23 07:14:40             
+sumatrapdf                        3.5.2                    extras      2023-12-02 06:53:34             
+tightvnc                          2.8.81                   extras      2023-05-06 13:27:41             
+uutils-coreutils                  0.0.23                   main        2023-11-22 08:37:24             
+vagrant                           2.4.0                    main        2023-10-21 07:12:44             
+#vivaldi                           6.5.3206.48              extras      2023-12-28 06:11:00             
+#vscode                            1.85.1                   extras      2023-12-19 10:01:36             
+wezterm                           20230712-072601-f4abf8fd extras      2023-07-15 05:47:24             
+#windows-terminal                  1.18.3181.0              extras      2023-11-22 08:38:49             
+wireshark                         4.2.0                    extras      2023-12-02 06:53:56             
+xnviewmp                          1.6.3                    extras      2023-12-19 10:01:56             
+xyplorer                          17.40.0100               extras      2022-09-11 09:10:59             
+zoom                              5.17.1.28914             extras      2023-12-28 06:11:13   
